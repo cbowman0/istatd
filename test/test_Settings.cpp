@@ -1,6 +1,8 @@
 
 #include "../daemon/Settings.h"
 #include "../daemon/IComplete.h"
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <boost/asio/io_service.hpp>
 #include <istat/test.h>
 #include <istat/Log.h>

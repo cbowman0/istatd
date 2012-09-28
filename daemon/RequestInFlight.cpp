@@ -3,6 +3,8 @@
 #include "Logs.h"
 #include "Settings.h"
 #include "IComplete.h"
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <istat/strfunc.h>
 #include <istat/StatFile.h>
 #include <istat/Atomic.h>
